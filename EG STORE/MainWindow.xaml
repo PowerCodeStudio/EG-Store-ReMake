@@ -13,8 +13,8 @@
             <NavigationView.MenuItems>
                 <NavigationViewItem x:Name="Home"  Icon="Shop" Content="主页" IsSelected="True" />
                 <NavigationViewItem x:Name="Apps" Icon="AllApps" Content="应用" />
-                <!--<NavigationViewItem x:Name="Account" Icon="SwitchUser" Content="账户" />
-                <NavigationViewItemSeparator />-->
+                <NavigationViewItem x:Name="Account" Icon="Account" Content="账户" />
+                <NavigationViewItemSeparator />
                 <NavigationViewItem x:Name="Downloads" Icon="Download" Content="下载" />
             </NavigationView.MenuItems>
 
@@ -44,12 +44,12 @@
                         </TextBlock>
                     </StackPanel>
                 </StackPanel>
-                <!--<StackPanel x:Name="spAccount"
+                <StackPanel x:Name="spAccount"
                             Visibility="{Binding ElementName=Account, Path=IsSelected}">
                     <TextBlock FontSize="30">
                         账户（未开发）
                     </TextBlock>
-                </StackPanel>-->
+                </StackPanel>
                 <StackPanel x:Name="spDownloads"
                             Visibility="{Binding ElementName=Downloads, Path=IsSelected}">
                     <TextBlock FontSize="30">

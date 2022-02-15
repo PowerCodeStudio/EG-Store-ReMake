@@ -3,7 +3,16 @@
   <PropertyGroup>
     <UapAppxPackageBuildMode>SideloadOnly</UapAppxPackageBuildMode>
     <AppxShowAllApps>False</AppxShowAllApps>
-    <AppxBuildConfigurationSelection>x86|x64</AppxBuildConfigurationSelection>
-    <PackageOptionalProjectsInIdeBuilds>True</PackageOptionalProjectsInIdeBuilds>
+    <AppxBuildConfigurationSelection>x86|x64|arm64</AppxBuildConfigurationSelection>
+    <PackageOptionalProjectsInIdeBuilds>False</PackageOptionalProjectsInIdeBuilds>
+    <Source>C:\Users\zbr20\AppData\Roaming\EGSTUDIO\EGStore\START0.png</Source>
+    <SmallTileSource>C:\Users\zbr20\AppData\Roaming\EGSTUDIO\EGStore\START0.png</SmallTileSource>
+    <MediumTileSource>C:\Users\zbr20\AppData\Roaming\EGSTUDIO\EGStore\START0.png</MediumTileSource>
+    <WideTileSource>C:\Users\zbr20\AppData\Roaming\EGSTUDIO\EGStore\START0.png</WideTileSource>
+    <LargeTileSource>C:\Users\zbr20\AppData\Roaming\EGSTUDIO\EGStore\START0.png</LargeTileSource>
+    <AppIconSource>C:\Users\zbr20\AppData\Roaming\EGSTUDIO\EGStore\START0.png</AppIconSource>
+    <SplashScreenSource>C:\Users\zbr20\AppData\Roaming\EGSTUDIO\EGStore\START0.png</SplashScreenSource>
+    <BadgeLogoSource>C:\Users\zbr20\AppData\Roaming\EGSTUDIO\EGStore\START0.png</BadgeLogoSource>
+    <PackageLogoSource>C:\Users\zbr20\AppData\Roaming\EGSTUDIO\EGStore\START0.png</PackageLogoSource>
   </PropertyGroup>
 </Project>

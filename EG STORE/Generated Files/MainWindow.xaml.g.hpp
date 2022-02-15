@@ -58,28 +58,40 @@ namespace winrt::EG_STORE::implementation
         case 5:
             {
                 auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem>();
-                this->Downloads(targetElement);
+                this->Account(targetElement);
             }
             break;
         case 6:
             {
-                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::StackPanel>();
-                this->contentFrame(targetElement);
+                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem>();
+                this->Downloads(targetElement);
             }
             break;
         case 7:
             {
                 auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::StackPanel>();
-                this->spHome(targetElement);
+                this->contentFrame(targetElement);
             }
             break;
         case 8:
             {
                 auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::StackPanel>();
-                this->spApps(targetElement);
+                this->spHome(targetElement);
             }
             break;
         case 9:
+            {
+                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::StackPanel>();
+                this->spApps(targetElement);
+            }
+            break;
+        case 10:
+            {
+                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::StackPanel>();
+                this->spAccount(targetElement);
+            }
+            break;
+        case 11:
             {
                 auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::StackPanel>();
                 this->spDownloads(targetElement);

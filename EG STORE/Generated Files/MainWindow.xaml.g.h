@@ -53,6 +53,15 @@ namespace winrt::EG_STORE::implementation
             _Apps = value;
         }
 
+        ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem Account()
+        {
+            return _Account;
+        }
+        void Account(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem value)
+        {
+            _Account = value;
+        }
+
         ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem Downloads()
         {
             return _Downloads;
@@ -89,6 +98,15 @@ namespace winrt::EG_STORE::implementation
             _spApps = value;
         }
 
+        ::winrt::Microsoft::UI::Xaml::Controls::StackPanel spAccount()
+        {
+            return _spAccount;
+        }
+        void spAccount(::winrt::Microsoft::UI::Xaml::Controls::StackPanel value)
+        {
+            _spAccount = value;
+        }
+
         ::winrt::Microsoft::UI::Xaml::Controls::StackPanel spDownloads()
         {
             return _spDownloads;
@@ -107,10 +125,12 @@ namespace winrt::EG_STORE::implementation
         ::winrt::Microsoft::UI::Xaml::Controls::NavigationView _NavView{nullptr};
         ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem _Home{nullptr};
         ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem _Apps{nullptr};
+        ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem _Account{nullptr};
         ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem _Downloads{nullptr};
         ::winrt::Microsoft::UI::Xaml::Controls::StackPanel _contentFrame{nullptr};
         ::winrt::Microsoft::UI::Xaml::Controls::StackPanel _spHome{nullptr};
         ::winrt::Microsoft::UI::Xaml::Controls::StackPanel _spApps{nullptr};
+        ::winrt::Microsoft::UI::Xaml::Controls::StackPanel _spAccount{nullptr};
         ::winrt::Microsoft::UI::Xaml::Controls::StackPanel _spDownloads{nullptr};
     };
 }

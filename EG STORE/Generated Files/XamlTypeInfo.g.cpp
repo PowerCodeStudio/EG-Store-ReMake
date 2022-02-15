@@ -856,41 +856,48 @@ const TypeInfo TypeInfos[] =
     TypeInfo_Flags_None,
     -1,
     //  25
+    L"Microsoft.UI.Xaml.Controls.NavigationViewItemSeparator", L"",
+    &ActivateType<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItemSeparator>, nullptr, nullptr, nullptr,
+    23, // Microsoft.UI.Xaml.Controls.NavigationViewItemBase
+    48, 3, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //  26
     L"Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode", L"",
     nullptr, nullptr, nullptr, &FromStringConverter<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewPaneDisplayMode>,
     5, // System.Enum
     48, 3, -1, TypeKind::Metadata,
     TypeInfo_Flags_None,
     -1,
-    //  26
+    //  27
     L"Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings", L"",
     nullptr, nullptr, nullptr, nullptr,
     12, // Microsoft.UI.Xaml.DependencyObject
     48, 8, -1, TypeKind::Metadata,
     TypeInfo_Flags_IsReturnTypeStub | TypeInfo_Flags_None,
     -1,
-    //  27
+    //  28
     L"Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode", L"",
     nullptr, nullptr, nullptr, &FromStringConverter<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewOverflowLabelMode>,
     5, // System.Enum
     48, 8, -1, TypeKind::Metadata,
     TypeInfo_Flags_None,
     -1,
-    //  28
+    //  29
     L"Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible", L"",
     nullptr, nullptr, nullptr, &FromStringConverter<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewBackButtonVisible>,
     5, // System.Enum
     48, 10, -1, TypeKind::Metadata,
     TypeInfo_Flags_None,
     -1,
-    //  29
+    //  30
     L"Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus", L"",
     nullptr, nullptr, nullptr, &FromStringConverter<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewSelectionFollowsFocus>,
     5, // System.Enum
     48, 13, -1, TypeKind::Metadata,
     TypeInfo_Flags_None,
     -1,
-    //  30
+    //  31
     L"Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled", L"",
     nullptr, nullptr, nullptr, &FromStringConverter<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewShoulderNavigationEnabled>,
     5, // System.Enum
@@ -961,19 +968,19 @@ constexpr uint32_t TypeInfoLookup[] = {
      24,   //  52
      25,   //  53
      25,   //  54
-     25,   //  55
-     25,   //  56
-     26,   //  57
-     27,   //  58
-     29,   //  59
-     29,   //  60
-     29,   //  61
-     29,   //  62
-     30,   //  63
-     30,   //  64
-     30,   //  65
-     30,   //  66
-     31,   //  67
+     26,   //  55
+     26,   //  56
+     27,   //  57
+     28,   //  58
+     30,   //  59
+     30,   //  60
+     30,   //  61
+     30,   //  62
+     31,   //  63
+     31,   //  64
+     31,   //  65
+     31,   //  66
+     32,   //  67
 };
 
 struct EnumValueInfo
@@ -1204,14 +1211,14 @@ const MemberInfo MemberInfos[] =
     L"ShoulderNavigationEnabled",
     &GetValueTypeMember_ShoulderNavigationEnabled<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewShoulderNavigationEnabled>,
     &SetEnumMember_ShoulderNavigationEnabled<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewShoulderNavigationEnabled>,
-    30, // Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+    31, // Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
     -1,
     false, true,  false,
     //  27 - Microsoft.UI.Xaml.Controls.NavigationView.SelectionFollowsFocus
     L"SelectionFollowsFocus",
     &GetValueTypeMember_SelectionFollowsFocus<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewSelectionFollowsFocus>,
     &SetEnumMember_SelectionFollowsFocus<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewSelectionFollowsFocus>,
-    29, // Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
+    30, // Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
     -1,
     false, true,  false,
     //  28 - Microsoft.UI.Xaml.Controls.NavigationView.PaneTitle
@@ -1232,7 +1239,7 @@ const MemberInfo MemberInfos[] =
     L"PaneDisplayMode",
     &GetValueTypeMember_PaneDisplayMode<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewPaneDisplayMode>,
     &SetEnumMember_PaneDisplayMode<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewPaneDisplayMode>,
-    25, // Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
+    26, // Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
     -1,
     false, true,  false,
     //  31 - Microsoft.UI.Xaml.Controls.NavigationView.PaneCustomContent
@@ -1246,7 +1253,7 @@ const MemberInfo MemberInfos[] =
     L"OverflowLabelMode",
     &GetValueTypeMember_OverflowLabelMode<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewOverflowLabelMode>,
     &SetEnumMember_OverflowLabelMode<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewOverflowLabelMode>,
-    27, // Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
+    28, // Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
     -1,
     false, true,  false,
     //  33 - Microsoft.UI.Xaml.Controls.NavigationView.IsPaneVisible
@@ -1267,7 +1274,7 @@ const MemberInfo MemberInfos[] =
     L"IsBackButtonVisible",
     &GetValueTypeMember_IsBackButtonVisible<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewBackButtonVisible>,
     &SetEnumMember_IsBackButtonVisible<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewBackButtonVisible>,
-    28, // Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
+    29, // Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
     -1,
     false, true,  false,
     //  36 - Microsoft.UI.Xaml.Controls.NavigationView.ContentOverlay
@@ -1281,7 +1288,7 @@ const MemberInfo MemberInfos[] =
     L"TemplateSettings",
     &GetReferenceTypeMember_TemplateSettings<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
     nullptr,
-    26, // Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
+    27, // Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
     -1,
     true,  true,  false,
     //  38 - Microsoft.UI.Xaml.Controls.NavigationViewItem.Icon

@@ -13,13 +13,13 @@
             <NavigationView.MenuItems>
                 <NavigationViewItem x:ConnectionId='3' x:Name="Home"  Icon="Shop" Content="主页" IsSelected="True" />
                 <NavigationViewItem x:ConnectionId='4' x:Name="Apps" Icon="AllApps" Content="应用" />
-                <!--<NavigationViewItem x:Name="Account" Icon="SwitchUser" Content="账户" />
-                <NavigationViewItemSeparator />-->
-                <NavigationViewItem x:ConnectionId='5' x:Name="Downloads" Icon="Download" Content="下载" />
+                <NavigationViewItem x:ConnectionId='5' x:Name="Account" Icon="Account" Content="账户" />
+                <NavigationViewItemSeparator />
+                <NavigationViewItem x:ConnectionId='6' x:Name="Downloads" Icon="Download" Content="下载" />
             </NavigationView.MenuItems>
 
-            <StackPanel x:ConnectionId='6' x:Name="contentFrame" Padding="5">
-                <StackPanel x:ConnectionId='7' x:Name="spHome"
+            <StackPanel x:ConnectionId='7' x:Name="contentFrame" Padding="5">
+                <StackPanel x:ConnectionId='8' x:Name="spHome"
                             Visibility="{Binding ElementName=Home, Path=IsSelected}">
                     <TextBlock FontSize="30">
                         主页
@@ -33,7 +33,7 @@
                         </TextBlock>
                     </StackPanel>
                 </StackPanel>
-                <StackPanel x:ConnectionId='8' x:Name="spApps"
+                <StackPanel x:ConnectionId='9' x:Name="spApps"
                             Visibility="{Binding ElementName=Apps, Path=IsSelected}">
                     <TextBlock FontSize="30">
                         应用
@@ -44,13 +44,13 @@
                         </TextBlock>
                     </StackPanel>
                 </StackPanel>
-                <!--<StackPanel x:Name="spAccount"
+                <StackPanel x:ConnectionId='10' x:Name="spAccount"
                             Visibility="{Binding ElementName=Account, Path=IsSelected}">
                     <TextBlock FontSize="30">
                         账户（未开发）
                     </TextBlock>
-                </StackPanel>-->
-                <StackPanel x:ConnectionId='9' x:Name="spDownloads"
+                </StackPanel>
+                <StackPanel x:ConnectionId='11' x:Name="spDownloads"
                             Visibility="{Binding ElementName=Downloads, Path=IsSelected}">
                     <TextBlock FontSize="30">
                         下载
