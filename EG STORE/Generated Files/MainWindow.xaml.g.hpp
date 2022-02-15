@@ -39,15 +39,50 @@ namespace winrt::EG_STORE::implementation
         {
         case 2:
             {
-                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::Button>();
-                this->myButton(targetElement);
-                auto weakThis = ::winrt::make_weak<class_type>(*this);
-                targetElement.Click([weakThis](::winrt::Windows::Foundation::IInspectable const& p0, ::winrt::Microsoft::UI::Xaml::RoutedEventArgs const& p1){
-                    if (auto t = weakThis.get())
-                    {
-                        ::winrt::get_self<D>(t)->myButton_Click(p0, p1);
-                    }
-                });
+                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>();
+                this->NavView(targetElement);
+            }
+            break;
+        case 3:
+            {
+                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem>();
+                this->Home(targetElement);
+            }
+            break;
+        case 4:
+            {
+                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem>();
+                this->Apps(targetElement);
+            }
+            break;
+        case 5:
+            {
+                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem>();
+                this->Downloads(targetElement);
+            }
+            break;
+        case 6:
+            {
+                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::StackPanel>();
+                this->contentFrame(targetElement);
+            }
+            break;
+        case 7:
+            {
+                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::StackPanel>();
+                this->spHome(targetElement);
+            }
+            break;
+        case 8:
+            {
+                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::StackPanel>();
+                this->spApps(targetElement);
+            }
+            break;
+        case 9:
+            {
+                auto targetElement = target.as<::winrt::Microsoft::UI::Xaml::Controls::StackPanel>();
+                this->spDownloads(targetElement);
             }
             break;
         }

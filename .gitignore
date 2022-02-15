@@ -1,9 +1,11 @@
 .vs
-/AppPackages
-/arm64
-/EG STORE/arm64
-/EG STORE/Release
-/EG STORE/x64
-/packages
-/Release
-/x64
+AppPackages
+arm64
+Debug
+EG STORE/arm64
+EG STORE/Generated Files
+EG STORE/Release
+EG STORE/x64
+packages
+Release
+x64

@@ -67,9 +67,307 @@ template<typename TDeclaringType, typename TValue>
 }
 
 template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_OpenPaneLength(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().OpenPaneLength());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_IsTitleBarAutoPaddingEnabled(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().IsTitleBarAutoPaddingEnabled());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_IsSettingsVisible(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().IsSettingsVisible());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_IsPaneToggleButtonVisible(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().IsPaneToggleButtonVisible());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_IsPaneOpen(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().IsPaneOpen());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_ExpandedModeThresholdWidth(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().ExpandedModeThresholdWidth());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_CompactPaneLength(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().CompactPaneLength());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_CompactModeThresholdWidth(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().CompactModeThresholdWidth());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_AlwaysShowHeader(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().AlwaysShowHeader());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_DisplayMode(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().DisplayMode());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_ShoulderNavigationEnabled(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().ShoulderNavigationEnabled());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_SelectionFollowsFocus(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().SelectionFollowsFocus());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_PaneDisplayMode(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().PaneDisplayMode());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_OverflowLabelMode(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().OverflowLabelMode());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_IsPaneVisible(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().IsPaneVisible());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_IsBackEnabled(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().IsBackEnabled());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_IsBackButtonVisible(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().IsBackButtonVisible());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_IsSelected(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().IsSelected());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_SelectsOnInvoked(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().SelectsOnInvoked());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_IsExpanded(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().IsExpanded());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_IsChildSelected(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().IsChildSelected());
+}
+
+template<typename TDeclaringType, typename TValue>
+::winrt::Windows::Foundation::IInspectable GetValueTypeMember_HasUnrealizedChildren(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().HasUnrealizedChildren());
+}
+
+template<typename TDeclaringType, typename TValue>
 ::winrt::Windows::Foundation::IInspectable GetValueTypeMember_MyProperty(::winrt::Windows::Foundation::IInspectable const& instance)
 {
     return ::winrt::box_value<TValue>(instance.as<TDeclaringType>().MyProperty());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeStringMember_PaneTitle(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+   return ::winrt::box_value(::winrt::Windows::Foundation::PropertyValue::CreateString(instance.as<T>().PaneTitle()));
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_MenuItems(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().MenuItems());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_SelectedItem(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().SelectedItem());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_PaneToggleButtonStyle(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().PaneToggleButtonStyle());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_PaneFooter(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().PaneFooter());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_MenuItemsSource(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().MenuItemsSource());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_MenuItemContainerStyleSelector(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().MenuItemContainerStyleSelector());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_MenuItemContainerStyle(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().MenuItemContainerStyle());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_HeaderTemplate(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().HeaderTemplate());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_Header(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().Header());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_FooterMenuItemsSource(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().FooterMenuItemsSource());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_MenuItemTemplateSelector(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().MenuItemTemplateSelector());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_MenuItemTemplate(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().MenuItemTemplate());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_AutoSuggestBox(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().AutoSuggestBox());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_FooterMenuItems(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().FooterMenuItems());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_SettingsItem(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().SettingsItem());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_PaneHeader(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().PaneHeader());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_PaneCustomContent(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().PaneCustomContent());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_ContentOverlay(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().ContentOverlay());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_TemplateSettings(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().TemplateSettings());
+}
+
+template <typename T>
+::winrt::Windows::Foundation::IInspectable GetReferenceTypeMember_Icon(::winrt::Windows::Foundation::IInspectable const& instance)
+{
+    return ::winrt::box_value(instance.as<T>().Icon());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetEnumMember_ShoulderNavigationEnabled(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().ShoulderNavigationEnabled(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetEnumMember_SelectionFollowsFocus(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().SelectionFollowsFocus(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetEnumMember_PaneDisplayMode(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().PaneDisplayMode(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetEnumMember_OverflowLabelMode(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().OverflowLabelMode(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetEnumMember_IsBackButtonVisible(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().IsBackButtonVisible(::winrt::unbox_value<TValue>(value));
 }
 
 template<typename TDeclaringType, typename TValue>
@@ -81,11 +379,275 @@ void SetValueTypeMember_UseCompactResources(
 }
 
 template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_OpenPaneLength(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().OpenPaneLength(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_IsTitleBarAutoPaddingEnabled(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().IsTitleBarAutoPaddingEnabled(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_IsSettingsVisible(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().IsSettingsVisible(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_IsPaneToggleButtonVisible(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().IsPaneToggleButtonVisible(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_IsPaneOpen(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().IsPaneOpen(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_ExpandedModeThresholdWidth(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().ExpandedModeThresholdWidth(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_CompactPaneLength(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().CompactPaneLength(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_CompactModeThresholdWidth(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().CompactModeThresholdWidth(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_AlwaysShowHeader(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().AlwaysShowHeader(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_IsPaneVisible(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().IsPaneVisible(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_IsBackEnabled(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().IsBackEnabled(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_IsSelected(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().IsSelected(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_SelectsOnInvoked(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().SelectsOnInvoked(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_IsExpanded(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().IsExpanded(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_IsChildSelected(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().IsChildSelected(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetValueTypeMember_HasUnrealizedChildren(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().HasUnrealizedChildren(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
 void SetValueTypeMember_MyProperty(
     ::winrt::Windows::Foundation::IInspectable const& instance, 
     ::winrt::Windows::Foundation::IInspectable const& value)
 {
     instance.as<TDeclaringType>().MyProperty(::winrt::unbox_value<TValue>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeStringMember_PaneTitle(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    return instance.as<TDeclaringType>().PaneTitle(::winrt::unbox_value<::winrt::hstring>(value));
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_SelectedItem(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().SelectedItem(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_PaneToggleButtonStyle(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().PaneToggleButtonStyle(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_PaneFooter(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().PaneFooter(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_MenuItemsSource(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().MenuItemsSource(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_MenuItemContainerStyleSelector(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().MenuItemContainerStyleSelector(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_MenuItemContainerStyle(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().MenuItemContainerStyle(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_HeaderTemplate(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().HeaderTemplate(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_Header(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().Header(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_FooterMenuItemsSource(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().FooterMenuItemsSource(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_MenuItemTemplateSelector(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().MenuItemTemplateSelector(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_MenuItemTemplate(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().MenuItemTemplate(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_AutoSuggestBox(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().AutoSuggestBox(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_PaneHeader(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().PaneHeader(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_PaneCustomContent(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().PaneCustomContent(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_ContentOverlay(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().ContentOverlay(value.as<TValue>());
+}
+
+template<typename TDeclaringType, typename TValue>
+void SetReferenceTypeMember_Icon(
+    ::winrt::Windows::Foundation::IInspectable const& instance, 
+    ::winrt::Windows::Foundation::IInspectable const& value)
+{
+    instance.as<TDeclaringType>().Icon(value.as<TValue>());
 }
 
 enum TypeInfo_Flags
@@ -133,45 +695,213 @@ const TypeInfo TypeInfos[] =
     TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
     -1,
     //   2
-    L"Boolean", L"",
+    L"Double", L"",
     nullptr, nullptr, nullptr, nullptr,
     -1,
     0, 0, -1, TypeKind::Metadata,
     TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
     -1,
     //   3
+    L"String", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    -1,
+    0, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
+    //   4
+    L"Boolean", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    -1,
+    0, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
+    //   5
+    L"System.Enum", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    6, // System.ValueType
+    0, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //   6
+    L"System.ValueType", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    1, // Object
+    0, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //   7
     L"EG_STORE.MainWindow", L"",
     &ActivateLocalType<::winrt::EG_STORE::implementation::MainWindow>, nullptr, nullptr, nullptr,
-    4, // Microsoft.UI.Xaml.Window
+    9, // Microsoft.UI.Xaml.Window
     0, 0, -1, TypeKind::Custom,
     TypeInfo_Flags_IsLocalType | TypeInfo_Flags_None,
     -1,
-    //   4
+    //   8
+    L"Microsoft.UI.Xaml.Style", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    -1,
+    1, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
+    //   9
     L"Microsoft.UI.Xaml.Window", L"",
     nullptr, nullptr, nullptr, nullptr,
     -1,
     1, 0, -1, TypeKind::Metadata,
     TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
     -1,
-    //   5
+    //  10
+    L"Microsoft.UI.Xaml.UIElement", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    -1,
+    1, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
+    //  11
+    L"Microsoft.UI.Xaml.DataTemplate", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    -1,
+    1, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
+    //  12
+    L"Microsoft.UI.Xaml.DependencyObject", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    -1,
+    1, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
+    //  13
     L"Microsoft.UI.Xaml.ResourceDictionary", L"",
     nullptr, nullptr, nullptr, nullptr,
     -1,
     1, 0, -1, TypeKind::Metadata,
     TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
     -1,
-    //   6
+    //  14
+    L"Microsoft.UI.Xaml.Controls.IconElement", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    -1,
+    1, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
+    //  15
+    L"Microsoft.UI.Xaml.Controls.StyleSelector", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    -1,
+    1, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
+    //  16
+    L"Microsoft.UI.Xaml.Controls.NavigationView", L"",
+    &ActivateType<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>, nullptr, nullptr, nullptr,
+    17, // Microsoft.UI.Xaml.Controls.ContentControl
+    1, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //  17
+    L"Microsoft.UI.Xaml.Controls.ContentControl", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    -1,
+    38, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
+    //  18
+    L"Microsoft.UI.Xaml.Controls.AutoSuggestBox", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    -1,
+    38, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
+    //  19
+    L"Microsoft.UI.Xaml.Controls.NavigationViewItem", L"",
+    &ActivateType<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem>, nullptr, nullptr, nullptr,
+    23, // Microsoft.UI.Xaml.Controls.NavigationViewItemBase
+    38, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //  20
+    L"Microsoft.UI.Xaml.Controls.DataTemplateSelector", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    -1,
+    46, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsSystemType | TypeInfo_Flags_None,
+    -1,
+    //  21
     L"Microsoft.UI.Xaml.Controls.XamlControlsResources", L"",
     &ActivateType<::winrt::Microsoft::UI::Xaml::Controls::XamlControlsResources>, nullptr, &DictionaryAdd<::winrt::Microsoft::UI::Xaml::Controls::XamlControlsResources, ::winrt::Windows::Foundation::IInspectable, ::winrt::Windows::Foundation::IInspectable>, nullptr,
-    5, // Microsoft.UI.Xaml.ResourceDictionary
-    1, 0, -1, TypeKind::Metadata,
+    13, // Microsoft.UI.Xaml.ResourceDictionary
+    46, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //  22
+    L"Windows.Foundation.Collections.IVector`1<Object>", L"",
+    nullptr, &CollectionAdd<::winrt::Windows::Foundation::Collections::IVector<::winrt::Windows::Foundation::IInspectable>, ::winrt::Windows::Foundation::IInspectable>, nullptr, nullptr,
+    -1,
+    47, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsReturnTypeStub | TypeInfo_Flags_None,
+    -1,
+    //  23
+    L"Microsoft.UI.Xaml.Controls.NavigationViewItemBase", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    17, // Microsoft.UI.Xaml.Controls.ContentControl
+    47, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //  24
+    L"Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode", L"",
+    nullptr, nullptr, nullptr, &FromStringConverter<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewDisplayMode>,
+    5, // System.Enum
+    48, 0, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //  25
+    L"Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode", L"",
+    nullptr, nullptr, nullptr, &FromStringConverter<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewPaneDisplayMode>,
+    5, // System.Enum
+    48, 3, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //  26
+    L"Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings", L"",
+    nullptr, nullptr, nullptr, nullptr,
+    12, // Microsoft.UI.Xaml.DependencyObject
+    48, 8, -1, TypeKind::Metadata,
+    TypeInfo_Flags_IsReturnTypeStub | TypeInfo_Flags_None,
+    -1,
+    //  27
+    L"Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode", L"",
+    nullptr, nullptr, nullptr, &FromStringConverter<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewOverflowLabelMode>,
+    5, // System.Enum
+    48, 8, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //  28
+    L"Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible", L"",
+    nullptr, nullptr, nullptr, &FromStringConverter<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewBackButtonVisible>,
+    5, // System.Enum
+    48, 10, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //  29
+    L"Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus", L"",
+    nullptr, nullptr, nullptr, &FromStringConverter<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewSelectionFollowsFocus>,
+    5, // System.Enum
+    48, 13, -1, TypeKind::Metadata,
+    TypeInfo_Flags_None,
+    -1,
+    //  30
+    L"Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled", L"",
+    nullptr, nullptr, nullptr, &FromStringConverter<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewShoulderNavigationEnabled>,
+    5, // System.Enum
+    48, 15, -1, TypeKind::Metadata,
     TypeInfo_Flags_None,
     -1,
     //  Last type here is for padding
     L"", L"",
     nullptr, nullptr, nullptr, nullptr,
     -1, 
-    2, 0, -1, TypeKind::Custom,
+    48, 18, -1, TypeKind::Custom,
     TypeInfo_Flags_None,
 };
 
@@ -183,49 +913,95 @@ constexpr uint32_t TypeInfoLookup[] = {
       0,   //   4
       0,   //   5
       1,   //   6
-      2,   //   7
-      3,   //   8
-      3,   //   9
-      3,   //  10
-      3,   //  11
-      3,   //  12
-      3,   //  13
-      3,   //  14
-      3,   //  15
-      3,   //  16
-      3,   //  17
-      3,   //  18
-      3,   //  19
-      4,   //  20
-      4,   //  21
-      4,   //  22
-      4,   //  23
-      4,   //  24
-      5,   //  25
-      5,   //  26
-      5,   //  27
-      5,   //  28
-      5,   //  29
-      5,   //  30
-      5,   //  31
-      5,   //  32
-      5,   //  33
-      5,   //  34
-      5,   //  35
-      5,   //  36
-      6,   //  37
-      6,   //  38
-      6,   //  39
-      6,   //  40
-      6,   //  41
-      6,   //  42
-      6,   //  43
-      6,   //  44
-      6,   //  45
-      6,   //  46
-      6,   //  47
-      6,   //  48
-      7,   //  49
+      4,   //   7
+      5,   //   8
+      5,   //   9
+      5,   //  10
+      5,   //  11
+      6,   //  12
+      6,   //  13
+      6,   //  14
+      6,   //  15
+      6,   //  16
+      7,   //  17
+      7,   //  18
+      7,   //  19
+      8,   //  20
+      8,   //  21
+      8,   //  22
+      8,   //  23
+      9,   //  24
+     10,   //  25
+     10,   //  26
+     10,   //  27
+     11,   //  28
+     11,   //  29
+     11,   //  30
+     12,   //  31
+     12,   //  32
+     12,   //  33
+     12,   //  34
+     13,   //  35
+     13,   //  36
+     14,   //  37
+     14,   //  38
+     15,   //  39
+     15,   //  40
+     16,   //  41
+     19,   //  42
+     19,   //  43
+     19,   //  44
+     19,   //  45
+     20,   //  46
+     20,   //  47
+     21,   //  48
+     23,   //  49
+     24,   //  50
+     24,   //  51
+     24,   //  52
+     25,   //  53
+     25,   //  54
+     25,   //  55
+     25,   //  56
+     26,   //  57
+     27,   //  58
+     29,   //  59
+     29,   //  60
+     29,   //  61
+     29,   //  62
+     30,   //  63
+     30,   //  64
+     30,   //  65
+     30,   //  66
+     31,   //  67
+};
+
+struct EnumValueInfo
+{
+    const wchar_t* name{nullptr};
+    int eValue;
+};
+
+const EnumValueInfo EnumValues[] =
+{ 
+    L"Minimal", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewDisplayMode::Minimal),
+    L"Compact", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewDisplayMode::Compact),
+    L"Expanded", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewDisplayMode::Expanded),
+    L"Auto", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewPaneDisplayMode::Auto),
+    L"Left", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewPaneDisplayMode::Left),
+    L"Top", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewPaneDisplayMode::Top),
+    L"LeftCompact", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewPaneDisplayMode::LeftCompact),
+    L"LeftMinimal", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewPaneDisplayMode::LeftMinimal),
+    L"MoreLabel", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewOverflowLabelMode::MoreLabel),
+    L"NoLabel", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewOverflowLabelMode::NoLabel),
+    L"Collapsed", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewBackButtonVisible::Collapsed),
+    L"Visible", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewBackButtonVisible::Visible),
+    L"Auto", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewBackButtonVisible::Auto),
+    L"Disabled", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewSelectionFollowsFocus::Disabled),
+    L"Enabled", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewSelectionFollowsFocus::Enabled),
+    L"WhenSelectionFollowsFocus", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewShoulderNavigationEnabled::WhenSelectionFollowsFocus),
+    L"Always", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewShoulderNavigationEnabled::Always),
+    L"Never", static_cast<int>(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewShoulderNavigationEnabled::Never),
 };
 
 struct MemberInfo 
@@ -249,11 +1025,333 @@ const MemberInfo MemberInfos[] =
     0, // Int32
     -1,
     false, false, false,
-    //   1 - Microsoft.UI.Xaml.Controls.XamlControlsResources.UseCompactResources
+    //   1 - Microsoft.UI.Xaml.Controls.NavigationView.MenuItems
+    L"MenuItems",
+    &GetReferenceTypeMember_MenuItems<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    nullptr,
+    22, // Windows.Foundation.Collections.IVector`1<Object>
+    -1,
+    true,  true,  false,
+    //   2 - Microsoft.UI.Xaml.Controls.NavigationView.SelectedItem
+    L"SelectedItem",
+    &GetReferenceTypeMember_SelectedItem<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_SelectedItem<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Windows::Foundation::IInspectable>,
+    1, // Object
+    -1,
+    false, true,  false,
+    //   3 - Microsoft.UI.Xaml.Controls.NavigationView.PaneToggleButtonStyle
+    L"PaneToggleButtonStyle",
+    &GetReferenceTypeMember_PaneToggleButtonStyle<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_PaneToggleButtonStyle<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Style>,
+    8, // Microsoft.UI.Xaml.Style
+    -1,
+    false, true,  false,
+    //   4 - Microsoft.UI.Xaml.Controls.NavigationView.PaneFooter
+    L"PaneFooter",
+    &GetReferenceTypeMember_PaneFooter<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_PaneFooter<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::UIElement>,
+    10, // Microsoft.UI.Xaml.UIElement
+    -1,
+    false, true,  false,
+    //   5 - Microsoft.UI.Xaml.Controls.NavigationView.OpenPaneLength
+    L"OpenPaneLength",
+    &GetValueTypeMember_OpenPaneLength<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, double>,
+    &SetValueTypeMember_OpenPaneLength<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, double>,
+    2, // Double
+    -1,
+    false, true,  false,
+    //   6 - Microsoft.UI.Xaml.Controls.NavigationView.MenuItemsSource
+    L"MenuItemsSource",
+    &GetReferenceTypeMember_MenuItemsSource<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_MenuItemsSource<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Windows::Foundation::IInspectable>,
+    1, // Object
+    -1,
+    false, true,  false,
+    //   7 - Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyleSelector
+    L"MenuItemContainerStyleSelector",
+    &GetReferenceTypeMember_MenuItemContainerStyleSelector<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_MenuItemContainerStyleSelector<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::StyleSelector>,
+    15, // Microsoft.UI.Xaml.Controls.StyleSelector
+    -1,
+    false, true,  false,
+    //   8 - Microsoft.UI.Xaml.Controls.NavigationView.MenuItemContainerStyle
+    L"MenuItemContainerStyle",
+    &GetReferenceTypeMember_MenuItemContainerStyle<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_MenuItemContainerStyle<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Style>,
+    8, // Microsoft.UI.Xaml.Style
+    -1,
+    false, true,  false,
+    //   9 - Microsoft.UI.Xaml.Controls.NavigationView.IsTitleBarAutoPaddingEnabled
+    L"IsTitleBarAutoPaddingEnabled",
+    &GetValueTypeMember_IsTitleBarAutoPaddingEnabled<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    &SetValueTypeMember_IsTitleBarAutoPaddingEnabled<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  10 - Microsoft.UI.Xaml.Controls.NavigationView.IsSettingsVisible
+    L"IsSettingsVisible",
+    &GetValueTypeMember_IsSettingsVisible<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    &SetValueTypeMember_IsSettingsVisible<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  11 - Microsoft.UI.Xaml.Controls.NavigationView.IsPaneToggleButtonVisible
+    L"IsPaneToggleButtonVisible",
+    &GetValueTypeMember_IsPaneToggleButtonVisible<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    &SetValueTypeMember_IsPaneToggleButtonVisible<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  12 - Microsoft.UI.Xaml.Controls.NavigationView.IsPaneOpen
+    L"IsPaneOpen",
+    &GetValueTypeMember_IsPaneOpen<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    &SetValueTypeMember_IsPaneOpen<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  13 - Microsoft.UI.Xaml.Controls.NavigationView.HeaderTemplate
+    L"HeaderTemplate",
+    &GetReferenceTypeMember_HeaderTemplate<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_HeaderTemplate<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::DataTemplate>,
+    11, // Microsoft.UI.Xaml.DataTemplate
+    -1,
+    false, true,  false,
+    //  14 - Microsoft.UI.Xaml.Controls.NavigationView.Header
+    L"Header",
+    &GetReferenceTypeMember_Header<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_Header<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Windows::Foundation::IInspectable>,
+    1, // Object
+    -1,
+    false, true,  false,
+    //  15 - Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItemsSource
+    L"FooterMenuItemsSource",
+    &GetReferenceTypeMember_FooterMenuItemsSource<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_FooterMenuItemsSource<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Windows::Foundation::IInspectable>,
+    1, // Object
+    -1,
+    false, true,  false,
+    //  16 - Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplateSelector
+    L"MenuItemTemplateSelector",
+    &GetReferenceTypeMember_MenuItemTemplateSelector<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_MenuItemTemplateSelector<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::DataTemplateSelector>,
+    20, // Microsoft.UI.Xaml.Controls.DataTemplateSelector
+    -1,
+    false, true,  false,
+    //  17 - Microsoft.UI.Xaml.Controls.NavigationView.ExpandedModeThresholdWidth
+    L"ExpandedModeThresholdWidth",
+    &GetValueTypeMember_ExpandedModeThresholdWidth<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, double>,
+    &SetValueTypeMember_ExpandedModeThresholdWidth<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, double>,
+    2, // Double
+    -1,
+    false, true,  false,
+    //  18 - Microsoft.UI.Xaml.Controls.NavigationView.MenuItemTemplate
+    L"MenuItemTemplate",
+    &GetReferenceTypeMember_MenuItemTemplate<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_MenuItemTemplate<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::DataTemplate>,
+    11, // Microsoft.UI.Xaml.DataTemplate
+    -1,
+    false, true,  false,
+    //  19 - Microsoft.UI.Xaml.Controls.NavigationView.CompactPaneLength
+    L"CompactPaneLength",
+    &GetValueTypeMember_CompactPaneLength<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, double>,
+    &SetValueTypeMember_CompactPaneLength<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, double>,
+    2, // Double
+    -1,
+    false, true,  false,
+    //  20 - Microsoft.UI.Xaml.Controls.NavigationView.CompactModeThresholdWidth
+    L"CompactModeThresholdWidth",
+    &GetValueTypeMember_CompactModeThresholdWidth<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, double>,
+    &SetValueTypeMember_CompactModeThresholdWidth<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, double>,
+    2, // Double
+    -1,
+    false, true,  false,
+    //  21 - Microsoft.UI.Xaml.Controls.NavigationView.AutoSuggestBox
+    L"AutoSuggestBox",
+    &GetReferenceTypeMember_AutoSuggestBox<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_AutoSuggestBox<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::AutoSuggestBox>,
+    18, // Microsoft.UI.Xaml.Controls.AutoSuggestBox
+    -1,
+    false, true,  false,
+    //  22 - Microsoft.UI.Xaml.Controls.NavigationView.AlwaysShowHeader
+    L"AlwaysShowHeader",
+    &GetValueTypeMember_AlwaysShowHeader<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    &SetValueTypeMember_AlwaysShowHeader<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  23 - Microsoft.UI.Xaml.Controls.NavigationView.DisplayMode
+    L"DisplayMode",
+    &GetValueTypeMember_DisplayMode<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewDisplayMode>,
+    nullptr,
+    24, // Microsoft.UI.Xaml.Controls.NavigationViewDisplayMode
+    -1,
+    true,  true,  false,
+    //  24 - Microsoft.UI.Xaml.Controls.NavigationView.FooterMenuItems
+    L"FooterMenuItems",
+    &GetReferenceTypeMember_FooterMenuItems<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    nullptr,
+    22, // Windows.Foundation.Collections.IVector`1<Object>
+    -1,
+    true,  true,  false,
+    //  25 - Microsoft.UI.Xaml.Controls.NavigationView.SettingsItem
+    L"SettingsItem",
+    &GetReferenceTypeMember_SettingsItem<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    nullptr,
+    1, // Object
+    -1,
+    true,  true,  false,
+    //  26 - Microsoft.UI.Xaml.Controls.NavigationView.ShoulderNavigationEnabled
+    L"ShoulderNavigationEnabled",
+    &GetValueTypeMember_ShoulderNavigationEnabled<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewShoulderNavigationEnabled>,
+    &SetEnumMember_ShoulderNavigationEnabled<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewShoulderNavigationEnabled>,
+    30, // Microsoft.UI.Xaml.Controls.NavigationViewShoulderNavigationEnabled
+    -1,
+    false, true,  false,
+    //  27 - Microsoft.UI.Xaml.Controls.NavigationView.SelectionFollowsFocus
+    L"SelectionFollowsFocus",
+    &GetValueTypeMember_SelectionFollowsFocus<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewSelectionFollowsFocus>,
+    &SetEnumMember_SelectionFollowsFocus<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewSelectionFollowsFocus>,
+    29, // Microsoft.UI.Xaml.Controls.NavigationViewSelectionFollowsFocus
+    -1,
+    false, true,  false,
+    //  28 - Microsoft.UI.Xaml.Controls.NavigationView.PaneTitle
+    L"PaneTitle",
+    &GetReferenceTypeStringMember_PaneTitle<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeStringMember_PaneTitle<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::hstring>,
+    3, // String
+    -1,
+    false, true,  false,
+    //  29 - Microsoft.UI.Xaml.Controls.NavigationView.PaneHeader
+    L"PaneHeader",
+    &GetReferenceTypeMember_PaneHeader<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_PaneHeader<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::UIElement>,
+    10, // Microsoft.UI.Xaml.UIElement
+    -1,
+    false, true,  false,
+    //  30 - Microsoft.UI.Xaml.Controls.NavigationView.PaneDisplayMode
+    L"PaneDisplayMode",
+    &GetValueTypeMember_PaneDisplayMode<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewPaneDisplayMode>,
+    &SetEnumMember_PaneDisplayMode<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewPaneDisplayMode>,
+    25, // Microsoft.UI.Xaml.Controls.NavigationViewPaneDisplayMode
+    -1,
+    false, true,  false,
+    //  31 - Microsoft.UI.Xaml.Controls.NavigationView.PaneCustomContent
+    L"PaneCustomContent",
+    &GetReferenceTypeMember_PaneCustomContent<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_PaneCustomContent<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::UIElement>,
+    10, // Microsoft.UI.Xaml.UIElement
+    -1,
+    false, true,  false,
+    //  32 - Microsoft.UI.Xaml.Controls.NavigationView.OverflowLabelMode
+    L"OverflowLabelMode",
+    &GetValueTypeMember_OverflowLabelMode<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewOverflowLabelMode>,
+    &SetEnumMember_OverflowLabelMode<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewOverflowLabelMode>,
+    27, // Microsoft.UI.Xaml.Controls.NavigationViewOverflowLabelMode
+    -1,
+    false, true,  false,
+    //  33 - Microsoft.UI.Xaml.Controls.NavigationView.IsPaneVisible
+    L"IsPaneVisible",
+    &GetValueTypeMember_IsPaneVisible<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    &SetValueTypeMember_IsPaneVisible<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  34 - Microsoft.UI.Xaml.Controls.NavigationView.IsBackEnabled
+    L"IsBackEnabled",
+    &GetValueTypeMember_IsBackEnabled<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    &SetValueTypeMember_IsBackEnabled<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, bool>,
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  35 - Microsoft.UI.Xaml.Controls.NavigationView.IsBackButtonVisible
+    L"IsBackButtonVisible",
+    &GetValueTypeMember_IsBackButtonVisible<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewBackButtonVisible>,
+    &SetEnumMember_IsBackButtonVisible<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewBackButtonVisible>,
+    28, // Microsoft.UI.Xaml.Controls.NavigationViewBackButtonVisible
+    -1,
+    false, true,  false,
+    //  36 - Microsoft.UI.Xaml.Controls.NavigationView.ContentOverlay
+    L"ContentOverlay",
+    &GetReferenceTypeMember_ContentOverlay<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    &SetReferenceTypeMember_ContentOverlay<::winrt::Microsoft::UI::Xaml::Controls::NavigationView, ::winrt::Microsoft::UI::Xaml::UIElement>,
+    10, // Microsoft.UI.Xaml.UIElement
+    -1,
+    false, true,  false,
+    //  37 - Microsoft.UI.Xaml.Controls.NavigationView.TemplateSettings
+    L"TemplateSettings",
+    &GetReferenceTypeMember_TemplateSettings<::winrt::Microsoft::UI::Xaml::Controls::NavigationView>,
+    nullptr,
+    26, // Microsoft.UI.Xaml.Controls.NavigationViewTemplateSettings
+    -1,
+    true,  true,  false,
+    //  38 - Microsoft.UI.Xaml.Controls.NavigationViewItem.Icon
+    L"Icon",
+    &GetReferenceTypeMember_Icon<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem>,
+    &SetReferenceTypeMember_Icon<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem, ::winrt::Microsoft::UI::Xaml::Controls::IconElement>,
+    14, // Microsoft.UI.Xaml.Controls.IconElement
+    -1,
+    false, true,  false,
+    //  39 - Microsoft.UI.Xaml.Controls.NavigationViewItem.CompactPaneLength
+    L"CompactPaneLength",
+    &GetValueTypeMember_CompactPaneLength<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem, double>,
+    nullptr,
+    2, // Double
+    -1,
+    true,  true,  false,
+    //  40 - Microsoft.UI.Xaml.Controls.NavigationViewItem.SelectsOnInvoked
+    L"SelectsOnInvoked",
+    &GetValueTypeMember_SelectsOnInvoked<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem, bool>,
+    &SetValueTypeMember_SelectsOnInvoked<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem, bool>,
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  41 - Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItemsSource
+    L"MenuItemsSource",
+    &GetReferenceTypeMember_MenuItemsSource<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem>,
+    &SetReferenceTypeMember_MenuItemsSource<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem, ::winrt::Windows::Foundation::IInspectable>,
+    1, // Object
+    -1,
+    false, true,  false,
+    //  42 - Microsoft.UI.Xaml.Controls.NavigationViewItem.IsExpanded
+    L"IsExpanded",
+    &GetValueTypeMember_IsExpanded<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem, bool>,
+    &SetValueTypeMember_IsExpanded<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem, bool>,
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  43 - Microsoft.UI.Xaml.Controls.NavigationViewItem.IsChildSelected
+    L"IsChildSelected",
+    &GetValueTypeMember_IsChildSelected<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem, bool>,
+    &SetValueTypeMember_IsChildSelected<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem, bool>,
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  44 - Microsoft.UI.Xaml.Controls.NavigationViewItem.HasUnrealizedChildren
+    L"HasUnrealizedChildren",
+    &GetValueTypeMember_HasUnrealizedChildren<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem, bool>,
+    &SetValueTypeMember_HasUnrealizedChildren<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem, bool>,
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  45 - Microsoft.UI.Xaml.Controls.NavigationViewItem.MenuItems
+    L"MenuItems",
+    &GetReferenceTypeMember_MenuItems<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem>,
+    nullptr,
+    22, // Windows.Foundation.Collections.IVector`1<Object>
+    -1,
+    true,  true,  false,
+    //  46 - Microsoft.UI.Xaml.Controls.XamlControlsResources.UseCompactResources
     L"UseCompactResources",
     &GetValueTypeMember_UseCompactResources<::winrt::Microsoft::UI::Xaml::Controls::XamlControlsResources, bool>,
     &SetValueTypeMember_UseCompactResources<::winrt::Microsoft::UI::Xaml::Controls::XamlControlsResources, bool>,
-    2, // Boolean
+    4, // Boolean
+    -1,
+    false, true,  false,
+    //  47 - Microsoft.UI.Xaml.Controls.NavigationViewItemBase.IsSelected
+    L"IsSelected",
+    &GetValueTypeMember_IsSelected<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItemBase, bool>,
+    &SetValueTypeMember_IsSelected<::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItemBase, bool>,
+    4, // Boolean
     -1,
     false, true,  false,
 };
@@ -351,6 +1449,10 @@ IXamlType XamlTypeInfoProvider::CreateXamlType(::winrt::hstring const& typeName)
         for (int i = pTypeInfo->firstMemberIndex; i < pNextTypeInfo->firstMemberIndex; ++i)
         {
             userType->AddMemberName(MemberInfos[i].shortName);
+        }
+        for (int i = pTypeInfo->firstEnumValueIndex; i < pNextTypeInfo->firstEnumValueIndex; ++i)
+        {
+            userType->AddEnumValue(EnumValues[i].name, winrt::Windows::Foundation::PropertyValue::CreateInt32(EnumValues[i].eValue));
         }
         return userType.as<IXamlType>();
     }

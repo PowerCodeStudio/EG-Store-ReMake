@@ -8,8 +8,8 @@
 
   <Identity
     Name="520bde26-47a9-4a16-95ec-8929b3c67d75"
-    Publisher="CN=zbr20"
-    Version="1.0.0.0" />
+    Publisher="CN=CodeZhangBorui"
+    Version="0.1.0.0" />
 
   <Properties>
     <DisplayName>EG STORE</DisplayName>

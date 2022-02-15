@@ -26,13 +26,76 @@ namespace winrt::EG_STORE::implementation
         void UnloadObject(::winrt::Microsoft::UI::Xaml::DependencyObject const& dependencyObject);
         void DisconnectUnloadedObject(int32_t connectionId);
 
-        ::winrt::Microsoft::UI::Xaml::Controls::Button myButton()
+        ::winrt::Microsoft::UI::Xaml::Controls::NavigationView NavView()
         {
-            return _myButton;
+            return _NavView;
         }
-        void myButton(::winrt::Microsoft::UI::Xaml::Controls::Button value)
+        void NavView(::winrt::Microsoft::UI::Xaml::Controls::NavigationView value)
         {
-            _myButton = value;
+            _NavView = value;
+        }
+
+        ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem Home()
+        {
+            return _Home;
+        }
+        void Home(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem value)
+        {
+            _Home = value;
+        }
+
+        ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem Apps()
+        {
+            return _Apps;
+        }
+        void Apps(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem value)
+        {
+            _Apps = value;
+        }
+
+        ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem Downloads()
+        {
+            return _Downloads;
+        }
+        void Downloads(::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem value)
+        {
+            _Downloads = value;
+        }
+
+        ::winrt::Microsoft::UI::Xaml::Controls::StackPanel contentFrame()
+        {
+            return _contentFrame;
+        }
+        void contentFrame(::winrt::Microsoft::UI::Xaml::Controls::StackPanel value)
+        {
+            _contentFrame = value;
+        }
+
+        ::winrt::Microsoft::UI::Xaml::Controls::StackPanel spHome()
+        {
+            return _spHome;
+        }
+        void spHome(::winrt::Microsoft::UI::Xaml::Controls::StackPanel value)
+        {
+            _spHome = value;
+        }
+
+        ::winrt::Microsoft::UI::Xaml::Controls::StackPanel spApps()
+        {
+            return _spApps;
+        }
+        void spApps(::winrt::Microsoft::UI::Xaml::Controls::StackPanel value)
+        {
+            _spApps = value;
+        }
+
+        ::winrt::Microsoft::UI::Xaml::Controls::StackPanel spDownloads()
+        {
+            return _spDownloads;
+        }
+        void spDownloads(::winrt::Microsoft::UI::Xaml::Controls::StackPanel value)
+        {
+            _spDownloads = value;
         }
         
     protected:
@@ -41,7 +104,14 @@ namespace winrt::EG_STORE::implementation
     private:
         struct MainWindow_obj1_Bindings;
 
-        ::winrt::Microsoft::UI::Xaml::Controls::Button _myButton{nullptr};
+        ::winrt::Microsoft::UI::Xaml::Controls::NavigationView _NavView{nullptr};
+        ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem _Home{nullptr};
+        ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem _Apps{nullptr};
+        ::winrt::Microsoft::UI::Xaml::Controls::NavigationViewItem _Downloads{nullptr};
+        ::winrt::Microsoft::UI::Xaml::Controls::StackPanel _contentFrame{nullptr};
+        ::winrt::Microsoft::UI::Xaml::Controls::StackPanel _spHome{nullptr};
+        ::winrt::Microsoft::UI::Xaml::Controls::StackPanel _spApps{nullptr};
+        ::winrt::Microsoft::UI::Xaml::Controls::StackPanel _spDownloads{nullptr};
     };
 }
 

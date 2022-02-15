@@ -7,7 +7,61 @@
     xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
     mc:Ignorable="d">
 
-    <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" VerticalAlignment="Center">
-        <Button x:Name="myButton" Click="myButton_Click">Click Me</Button>
-    </StackPanel>
+    <Grid>
+        <NavigationView 
+            x:Name="NavView">
+            <NavigationView.MenuItems>
+                <NavigationViewItem x:Name="Home"  Icon="Shop" Content="主页" IsSelected="True" />
+                <NavigationViewItem x:Name="Apps" Icon="AllApps" Content="应用" />
+                <!--<NavigationViewItem x:Name="Account" Icon="SwitchUser" Content="账户" />
+                <NavigationViewItemSeparator />-->
+                <NavigationViewItem x:Name="Downloads" Icon="Download" Content="下载" />
+            </NavigationView.MenuItems>
+
+            <StackPanel x:Name="contentFrame" Padding="5">
+                <StackPanel x:Name="spHome"
+                            Visibility="{Binding ElementName=Home, Path=IsSelected}">
+                    <TextBlock FontSize="30">
+                        主页
+                    </TextBlock>
+                    <StackPanel Margin="5">
+                        <TextBlock Margin="5" FontSize="20">
+                            欢迎使用 EG Store 重制版！
+                        </TextBlock>
+                        <TextBlock Margin="5">
+                            主题色可在 Windows 自带设置 - 个性化里更改
+                        </TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                <StackPanel x:Name="spApps"
+                            Visibility="{Binding ElementName=Apps, Path=IsSelected}">
+                    <TextBlock FontSize="30">
+                        应用
+                    </TextBlock>
+                    <StackPanel Margin="5">
+                        <TextBlock Margin="5">
+                            感谢您对 EG Store 重制版的支持，此功能正在制作中，请期待！
+                        </TextBlock>
+                    </StackPanel>
+                </StackPanel>
+                <!--<StackPanel x:Name="spAccount"
+                            Visibility="{Binding ElementName=Account, Path=IsSelected}">
+                    <TextBlock FontSize="30">
+                        账户（未开发）
+                    </TextBlock>
+                </StackPanel>-->
+                <StackPanel x:Name="spDownloads"
+                            Visibility="{Binding ElementName=Downloads, Path=IsSelected}">
+                    <TextBlock FontSize="30">
+                        下载
+                    </TextBlock>
+                    <StackPanel Margin="5">
+                        <TextBlock Margin="5">
+                            感谢您对 EG Store 重制版的支持，此功能正在制作中，请期待！
+                        </TextBlock>
+                    </StackPanel>
+                </StackPanel>
+            </StackPanel>
+        </NavigationView>
+    </Grid>
 </Window>
